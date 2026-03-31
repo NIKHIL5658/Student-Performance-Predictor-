@@ -8,58 +8,63 @@ Study Hours
 Attendance Percentage
 Sleep Hours
 
-The goal is to understand how these variables affect academic performance and to predict marks accordingly.
+The goal is to understand how these variables affect academic performance and to predict marks accordingly. <br>
 
-🛠️ Technologies Used
-Python
-Pandas
-Scikit-learn
-📂 Project Structure
-├── main.py                     # Main Python program
-├── dataset_StudyPattern.csv   # Dataset file
-└── README.md                  # Project documentation
-📊 Dataset Information
+🛠️ Technologies Used <br>
+Python <br>
+Pandas <br>
+Scikit-learn <br>
+📂 Project Structure <br>
+├── main.py                     # Main Python program <br>
+├── dataset_StudyPattern.csv   # Dataset file <br>
+└── README.md                  # Project documentation <br>
+📊 Dataset Information <br>
 
-The dataset contains the following columns:
+The dataset contains the following columns: <br>
 
-Column Name	Description
-StudyHours	Number of hours studied per day
-Attendance	Attendance percentage (%)
-SleepHours	Average sleep hours per day
-Marks	Marks obtained by the student
-⚙️ How It Works
-The dataset is loaded using Pandas
-Features (inputs) and target (output) are defined
-Data is split into training and testing sets
-A Linear Regression model is trained
-Model accuracy is calculated
-User inputs values to predict marks
+Column Name	Description <br>
+StudyHours	Number of hours studied per day <br>
+Attendance	Attendance percentage (%)  <br>
+SleepHours	Average sleep hours per day  <br>
+Marks	Marks obtained by the student  <br>
 
-Code reference:
+⚙️ How It Works   <br>
 
-▶️ How to Run the Project
-Install required libraries:
-pip install pandas scikit-learn
-Update dataset path in the code:
-data = pd.read_csv("dataset_StudyPattern.csv")
-Run the program:
-python main.py
-Enter input values when prompted:
-Enter study hours:
-Enter attendance (%):
-Enter sleep hours:
-📈 Output
-Displays model accuracy
-Predicts student marks based on input
-⚠️ Important Notes
-The dataset path in the code is currently hardcoded. Change it to a relative path before running.
-Input values should be numeric
-Accuracy depends on dataset quality
-🚀 Future Improvements
-Add data visualization (graphs)
-Use advanced models (Random Forest, etc.)
-Build a web interface using Flask or Streamlit
-Improve dataset size and diversity
+The dataset is loaded using Pandas   <br>
+Features (inputs) and target (output) are defined   <br>
+Data is split into training and testing sets   <br>
+A Linear Regression model is trained   <br>
+Model accuracy is calculated  <br>
+User inputs values to predict marks  <br>
+
+Code reference:  <br>
+▶️ How to Run the Project  <br>
+Install required libraries:  <br>
+pip install pandas scikit-learn  <br>
+Update dataset path in the code:  <br>
+data = pd.read_csv("dataset_StudyPattern.csv")  <br>
+Run the program:  <br>
+python main.py <br>
+
+Enter input values when prompted: <br>
+Enter study hours:  <br>
+Enter attendance (%):  <br>
+Enter sleep hours:  <br>
+
+📈 Output  <br>
+Displays model accuracy  <br>
+Predicts student marks based on input  <br>
+
+⚠️ Important Notes <br>
+The dataset path in the code is currently hardcoded. Change it to a relative path before running.  <br>
+Input values should be numeric  <br>
+Accuracy depends on dataset quality  <br>
+
+🚀 Future Improvements  <br>
+Add data visualization (graphs)  <br>
+Use advanced models (Random Forest, etc.)   <br>
+Build a web interface using Flask or Streamlit  <br>
+Improve dataset size and diversity  <br>
 
 Developer-Nikhil Kumar <br>
-REgistration no. -25BAI10465
+REgistration no. -25BAI10465  <br>
