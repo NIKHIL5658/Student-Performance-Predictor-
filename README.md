@@ -1,4 +1,4 @@
-# Study Pattern vs Academic Performance Prediction
+# Student Performance Predictor
 
 📖 Description
 
